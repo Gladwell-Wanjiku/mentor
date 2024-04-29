@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="achievements">
+        <div id="navbar">
+            <img src="pics/mentorship_logo.png" alt="logo" class="logo2">
+            <a href="index.html">Home</a>
+            <a href="todo.html">To-Do list</a>
+            <a href="goal.html">Goal setting</a>
+            <a href="achieve.html">Achievements</a>
+            <a href="trevor.html">Current Read</a>
+        </div>
+        <h1 class="row1">
+          &nbsp;&nbsp;&nbsp;
+          Add Here
+          &nbsp;&nbsp;&nbsp;
+        </h1>
+        <br/><br/>
+        <div class="row2">
+            <form class="form-inline col-sm-offset-3">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="glyphicon glyphicon-pencil"></i>
+                    </span>
+                    <input type="text" class="form-control"
+                           placeholder="Add your task here"
+                           id="box" style="width: 30vw" />
+                </div>
+                <div class="form-group">
+                    <input type="button"
+                           class="btn btn-primary form-control"
+                           value="add" style="width: 10vw"
+                           onclick="add_item()" />
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list_item">
+            </ul>
+        </div>
+    <script type="text/javascript" src="script.js"></script> 
+</div>
+</body>
+</html>

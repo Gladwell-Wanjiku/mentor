@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal setting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mygoals">
+<div id="navbar">
+            <img src="pics/mentorship_logo.png" alt="logo" class="logo2">
+            <a href="index.html">Home</a>
+            <a href="todo.html">To-Do list</a>
+            <a href="goal.html">Goal setting</a>
+            <a href="achieve.html">Achievements</a>
+            <a href="trevor.html">Current Read</a>
+        </div>
+    <h1>Goals Setting</h1> 
+    <div class="smartgoals">       
+    <p>Remember to keep is SMART.
+        
+    <li>S-Specific</li>
+    <li>M-Measurable</li>
+    <li>A-Achievable</li>
+    <li>R-Realistic</li>
+    <li>T-Timely</li></p>
+</div>
+
+    <!-- input field for tasks/goals -->
+    <div id="inputField2">
+        <div id="short term">
+            <h2>Short Term</h2>
+            <input type="text" id="taskInput" placeholder="Enter your goal">
+            <button onclick="addTask()">Add Goal</button>
+        </div>
+        <div id="taskInput">
+            <h2>Long Term</h2>
+    <input type="text" id="taskInput" placeholder="Enter your goal">
+    <button onclick="addTask()">Add Goal</button>
+</div>
+    </div>
+
+    <!-- Section for displaying tasks/goals -->
+    <div id="taskList"></div>
+    <script type="text/javascript" src="script.js"></script>
+</div>
+</body>
+</html>
