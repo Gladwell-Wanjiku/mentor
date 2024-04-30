@@ -173,13 +173,22 @@ h1{
 #bornacrime{
     background-color: paleturquoise;
     border-radius: 12px;
-    text-align: center;
     font-size: larger;
-    width: 1800px;
+    width: 2000px;
 
+}
+.Bornacrime{
+    margin-top: 7%;
+}
+#Trevor{
+    display: flex;
+    justify-content: space-around;
 }
 .start p{
     font-size: large;
+}
+.summary{
+    margin-right: 10%;
 }
 
 @media screen and (max-width: 650px){
